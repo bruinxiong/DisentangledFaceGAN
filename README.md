@@ -1,4 +1,4 @@
-## Disentangled and Controllable Face Image Generation via 3D Imitative-Contrastive Learning ##
+## *DiscoFaceGAN*: *Dis*entangled and *Co*ntrollable Face Image Generation via 3D Imitative-Contrastive Learning ##
 
 <p align="center"> 
 <img src="/images/teaser.gif">
@@ -11,9 +11,9 @@ This is a tensorflow implementation of the following paper:
 
 Yu Deng, Jiaolong Yang, Dong Chen, Fang Wen, and Xin Tong
 
-Paper: [https://arxiv.org/abs/2004.11660](https://arxiv.org/abs/2004.11660)
+Paper: [https://arxiv.org/abs/2004.11660](https://arxiv.org/abs/2004.11660v2)
 
-Abstract: _We propose an approach for face image generation of virtual people with disentangled, precisely-controllable latent representations for identity of non-existing people, expression, pose, and illumination. We embed 3D priors into adversarial learning and train the network to imitate the image formation of an analytic 3D face deformation and rendering process. To deal with the generation freedom induced by the domain gap between real and rendered faces, we further introduce contrastive learning to promote disentanglement by comparing pairs of generated images. Experiments show that through our imitative-contrastive learning, the factor variations are very well disentangled and the properties of a generated face can be precisely controlled. We also analyze the learned latent space and present several meaningful properties supporting factor disentanglement. Our method can also be used to embed real images into the disentangled latent space. We hope our method could provide new understandings of the relationship between physical properties and deep image synthesis._
+Abstract: _We propose **DiscoFaceGAN**, an approach for face image generation of virtual people with **DIS**entangled, precisely-**CO**ntrollable latent representations for identity of non-existing people, expression, pose, and illumination. We embed 3D priors into adversarial learning and train the network to imitate the image formation of an analytic 3D face deformation and rendering process. To deal with the generation freedom induced by the domain gap between real and rendered faces, we further introduce contrastive learning to promote disentanglement by comparing pairs of generated images. Experiments show that through our imitative-contrastive learning, the factor variations are very well disentangled and the properties of a generated face can be precisely controlled. We also analyze the learned latent space and present several meaningful properties supporting factor disentanglement. Our method can also be used to embed real images into the disentangled latent space. We hope our method could provide new understandings of the relationship between physical properties and deep image synthesis._
 
 ## Features
 
@@ -62,8 +62,8 @@ The training code of our model are mainly borrowed from [StyleGAN](https://githu
 1. Clone the repository:
 
 ```
-git clone https://github.com/microsoft/DisentangledFaceGAN.git
-cd DisentangledFaceGAN
+git clone https://github.com/microsoft/DiscoFaceGAN.git
+cd DiscoFaceGAN
 ```
 2. Generate images using pre-trained network:
 
